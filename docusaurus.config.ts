@@ -64,7 +64,19 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en', 'zh'],
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+        indexBlog: false,
+        // explicitSearchResultPath: true,
+      },
+    ],
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/brand_gips.svg',

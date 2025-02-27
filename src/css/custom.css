@@ -37,3 +37,25 @@
 .navbar__link {
   color: #fff;
 }
+
+.navbar-icon {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+
+.icon-link.icon-link-mask::before {
+  content: '';
+  height: 25px;
+  display: flex;
+  background-color: #fff;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 100% 100%;
+}
+
+.icon-link.icon-link-home::before {
+  mask-image: url("../../static/img/house-solid.svg");
+  width: 25px;
+}

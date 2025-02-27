@@ -3,6 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const { FontAwesomeIcon } = require('@fortawesome/react-fontawesome');
+const { faGithub } = require('@fortawesome/free-brands-svg-icons');
 
 const config: Config = {
   title: 'My Site',
@@ -89,11 +91,18 @@ const config: Config = {
         // href: '/',
       },
       items: [
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          to: 'https://www.gips.com.tw/',
+          position: 'right',
+          className: 'icon-link icon-link-mask icon-link-home',
+          'aria-label': 'Home',
+          target: '_blank',
         },
         {
           type: 'localeDropdown',

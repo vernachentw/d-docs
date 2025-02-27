@@ -4,7 +4,7 @@ title: 'intro'
 sidebar_position: 1
 ---
 
-# 中文 Docusaurus Docusaurus 1.0.0
+# 中文 Docusaurus Docusaurus 0.0.9
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

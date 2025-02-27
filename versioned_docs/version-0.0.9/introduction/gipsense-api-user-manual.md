@@ -4,7 +4,8 @@ hide_table_of_contents: false
 title: GIPSense API 使用手冊
 tags: [Product, CHT]
 ---
-# GIPSense API 使用手冊 1.0.0
+
+# GIPSense API 使用手冊 0.0.9
 
 ## 升版歷程
 
@@ -862,11 +863,13 @@ x-app-id: \{由相關人員提供\}
   - conds.tagInfo: 針對標籤設定的顧慮條件，目前為保留欄位不使用
   - destEpsg: 回傳結果標的物之定位坐標系統,若為 null 則採用預設 epsg:3826 坐標系統
   - countOnly: 查詢結果是否僅回傳符合查詢條件之計數結果，若為 true 則為僅回傳計數結果
+
 - 空間名稱(spaceName)對應表
 
   | 空間名稱 | 參數字串 |
   | -------- | -------- |
   | KSPH_1F  | KSPH_1F  |
+
 - 狀態碼對應表
 
   | 狀態名稱 | 參數字串      |

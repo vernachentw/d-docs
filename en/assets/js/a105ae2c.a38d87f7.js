@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgips_docs=self.webpackChunkgips_docs||[]).push([[355],{8189:s=>{s.exports=JSON.parse('{"tags":[{"label":"Product","permalink":"/d-docs/en/0.0.9/tags/product","count":3},{"label":"EN","permalink":"/d-docs/en/0.0.9/tags/en","count":3}]}')}}]);

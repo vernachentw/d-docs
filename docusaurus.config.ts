@@ -8,8 +8,8 @@ const { faGithub } = require('@fortawesome/free-brands-svg-icons');
 
 const config: Config = {
   title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: '室內定位、UWB、RTLS、工業4.0、數位雙生',
+  favicon: 'img/brand_gips.svg',
 
   // Set the production url of your site here
   url: 'http://localhost:3000',
@@ -89,7 +89,10 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/brand_gips.svg',
-
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+    },
     navbar: {
       // title: 'My Site',
       logo: {
